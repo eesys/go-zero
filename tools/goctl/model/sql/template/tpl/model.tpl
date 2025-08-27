@@ -8,7 +8,7 @@ import (
 
 import "github.com/zeromicro/go-zero/core/stores/sqlx"
 {{end}}
-var _ {{.upperStartCamelObject}}Model = (*custom{{.upperStartCamelObject}}Model)(nil)
+var {{.lowerStartCamelObject}}ModelSingleton {{.upperStartCamelObject}}Model
 
 type (
 	// {{.upperStartCamelObject}}Model is an interface to be customized, add more methods here,
@@ -25,9 +25,13 @@ type (
 
 // New{{.upperStartCamelObject}}Model returns a model for the database table.
 func New{{.upperStartCamelObject}}Model(conn sqlx.SqlConn{{if .withCache}}, c cache.CacheConf, opts ...cache.Option{{end}}) {{.upperStartCamelObject}}Model {
-	return &custom{{.upperStartCamelObject}}Model{
-		default{{.upperStartCamelObject}}Model: new{{.upperStartCamelObject}}Model(conn{{if .withCache}}, c, opts...{{end}}),
+	if {{.lowerStartCamelObject}}ModelSingleton != nil {
+		return {{.lowerStartCamelObject}}ModelSingleton
 	}
+	{{.lowerStartCamelObject}}ModelSingleton = &custom{{.upperStartCamelObject}}Model{
+		default{{.upperStartCamelObject}}Model: new{{.upperStartCamelObject}}Model(conn, c, opts...),
+	}
+	return {{.lowerStartCamelObject}}ModelSingleton
 }
 
 {{if not .withCache}}
