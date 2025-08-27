@@ -1234,6 +1234,21 @@ func (s *Redis) PublishCtx(ctx context.Context, channel string, message interfac
 	return conn.Publish(ctx, channel, message).Result()
 }
 
+// Rename is the implementation of redis rename command.
+func (s *Redis) Rename(key, newkey string) (string, error) {
+	return s.RenameCtx(context.Background(), key, newkey)
+}
+
+// RenameCtx is the implementation of redis rename command.
+func (s *Redis) RenameCtx(ctx context.Context, key, newkey string) (string, error) {
+	conn, err := getRedis(s)
+	if err != nil {
+		return "", err
+	}
+
+	return conn.Rename(ctx, key, newkey).Result()
+}
+
 // Rpop is the implementation of redis rpop command.
 func (s *Redis) Rpop(key string) (string, error) {
 	return s.RpopCtx(context.Background(), key)
@@ -1475,6 +1490,36 @@ func (s *Redis) SetnxExCtx(ctx context.Context, key, value string, seconds int) 
 	}
 
 	return conn.SetNX(ctx, key, value, time.Duration(seconds)*time.Second).Result()
+}
+
+// Setxx is the implementation of redis setxx command.
+func (s *Redis) Setxx(key, value string) (bool, error) {
+	return s.SetxxCtx(context.Background(), key, value)
+}
+
+// SetxxCtx is the implementation of redis setxx command.
+func (s *Redis) SetxxCtx(ctx context.Context, key, value string) (bool, error) {
+	conn, err := getRedis(s)
+	if err != nil {
+		return false, err
+	}
+
+	return conn.SetXX(ctx, key, value, 0).Result()
+}
+
+// SetxxEx is the implementation of redis setxx command with expire.
+func (s *Redis) SetxxEx(key, value string, seconds int) (bool, error) {
+	return s.SetxxExCtx(context.Background(), key, value, seconds)
+}
+
+// SetxxExCtx is the implementation of redis setxx command with expire.
+func (s *Redis) SetxxExCtx(ctx context.Context, key, value string, seconds int) (bool, error) {
+	conn, err := getRedis(s)
+	if err != nil {
+		return false, err
+	}
+
+	return conn.SetXX(ctx, key, value, time.Duration(seconds)*time.Second).Result()
 }
 
 // Sismember is the implementation of redis sismember command.
