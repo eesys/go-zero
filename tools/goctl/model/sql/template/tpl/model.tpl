@@ -16,7 +16,7 @@ import (
 {{end}}
 var (
 	{{.lowerStartCamelObject}}ModelInstance {{.upperStartCamelObject}}Model
-	onceFor{{.upperStartCamelObject}} sync.Once
+	onceFor{{.upperStartCamelObject}}Model sync.Once
 )
 
 type (
