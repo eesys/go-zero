@@ -1,14 +1,23 @@
 package {{.pkg}}
 {{if .withCache}}
 import (
+	"sync"
+
 	"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 {{else}}
 
-import "github.com/zeromicro/go-zero/core/stores/sqlx"
+import (
+	"sync"
+
+	"github.com/zeromicro/go-zero/core/stores/sqlx"
+)
 {{end}}
-var {{.lowerStartCamelObject}}ModelSingleton {{.upperStartCamelObject}}Model
+var (
+	{{.lowerStartCamelObject}}ModelInstance {{.upperStartCamelObject}}Model
+	onceFor{{.upperStartCamelObject}} sync.Once
+)
 
 type (
 	// {{.upperStartCamelObject}}Model is an interface to be customized, add more methods here,
@@ -25,13 +34,16 @@ type (
 
 // New{{.upperStartCamelObject}}Model returns a model for the database table.
 func New{{.upperStartCamelObject}}Model(conn sqlx.SqlConn{{if .withCache}}, c cache.CacheConf, opts ...cache.Option{{end}}) {{.upperStartCamelObject}}Model {
-	if {{.lowerStartCamelObject}}ModelSingleton != nil {
-		return {{.lowerStartCamelObject}}ModelSingleton
-	}
-	{{.lowerStartCamelObject}}ModelSingleton = &custom{{.upperStartCamelObject}}Model{
-		default{{.upperStartCamelObject}}Model: new{{.upperStartCamelObject}}Model(conn, c, opts...),
-	}
-	return {{.lowerStartCamelObject}}ModelSingleton
+	onceFor{{.upperStartCamelObject}}Model.Do(func() {
+		{{.lowerStartCamelObject}}ModelInstance = &custom{{.upperStartCamelObject}}Model{
+			default{{.upperStartCamelObject}}Model: new{{.upperStartCamelObject}}Model(conn, c, opts...),
+		}
+	})
+	return {{.lowerStartCamelObject}}ModelInstance
+}
+
+func Get{{.upperStartCamelObject}}Model() {{.upperStartCamelObject}}Model {
+	return {{.lowerStartCamelObject}}ModelInstance
 }
 
 {{if not .withCache}}
