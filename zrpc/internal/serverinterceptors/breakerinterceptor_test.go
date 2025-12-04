@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/eesys/go-zero/core/breaker"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

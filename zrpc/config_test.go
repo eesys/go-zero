@@ -3,12 +3,12 @@ package zrpc
 import (
 	"testing"
 
+	zconf "github.com/eesys/go-zero/core/conf"
+	"github.com/eesys/go-zero/core/discov"
+	"github.com/eesys/go-zero/core/service"
+	"github.com/eesys/go-zero/core/stores/redis"
+	"github.com/eesys/go-zero/zrpc/internal/balancer/p2c"
 	"github.com/stretchr/testify/assert"
-	zconf "github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/zrpc/internal/balancer/p2c"
 )
 
 func TestRpcClientConf(t *testing.T) {

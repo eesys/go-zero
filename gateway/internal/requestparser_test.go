@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/eesys/go-zero/rest/pathvar"
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/rest/pathvar"
 )
 
 func TestNewRequestParserNoVar(t *testing.T) {

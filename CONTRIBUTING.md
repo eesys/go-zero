@@ -26,7 +26,7 @@ Get your adventure rolling! Here's how to begin:
 
 We're here to guide you on your quest to become a go-zero contributor. Whether you want to file issues, develop features, or tame some critical bugs, we've got you covered.
 
-If you have questions or need guidance at any stage, don't hesitate to [open an issue](https://github.com/zeromicro/go-zero/issues/new/choose).
+If you have questions or need guidance at any stage, don't hesitate to [open an issue](https://github.com/eesys/go-zero/issues/new/choose).
 
 ## 🔍 Find Something to Work On
 
@@ -34,7 +34,7 @@ Ready to dive into the action? There are several ways to contribute:
 
 ### 💼 Find a Good First Topic
 
-Discover easy-entry issues labeled as [help wanted](https://github.com/zeromicro/go-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) or [good first issue](https://github.com/zeromicro/go-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22). These issues are perfect for newcomers and don't require deep knowledge of the system. We're here to assist you with these tasks.
+Discover easy-entry issues labeled as [help wanted](https://github.com/eesys/go-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) or [good first issue](https://github.com/eesys/go-zero/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22). These issues are perfect for newcomers and don't require deep knowledge of the system. We're here to assist you with these tasks.
 
 ### 🪄 Work on an Issue
 
@@ -42,7 +42,7 @@ Once you've picked an issue that excites you, let us know by commenting on it. O
 
 ### 📢 File an Issue
 
-Reporting an issue is just as valuable as code contributions. If you discover a problem, don't hesitate to [open an issue](https://github.com/zeromicro/go-zero/issues/new/choose). Be sure to follow our guidelines when submitting an issue.
+Reporting an issue is just as valuable as code contributions. If you discover a problem, don't hesitate to [open an issue](https://github.com/eesys/go-zero/issues/new/choose). Be sure to follow our guidelines when submitting an issue.
 
 ## 🎯 Contributor Workflow
 
@@ -54,7 +54,7 @@ Here's a rough guide to your contributor journey:
 
 3. 🚀 Push Changes: Push the changes in your topic branch to your personal fork of the repository.
 
-4. 📦 Submit a Pull Request: When your creation is complete, submit a Pull Request to the [go-zero repository](https://github.com/zeromicro/go-zero).
+4. 📦 Submit a Pull Request: When your creation is complete, submit a Pull Request to the [go-zero repository](https://github.com/eesys/go-zero).
 
 ## 🌠 Creating Pull Requests
 

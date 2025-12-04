@@ -1,8 +1,8 @@
 package subscriber
 
 import (
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/eesys/go-zero/core/discov"
+	"github.com/eesys/go-zero/core/logx"
 )
 
 type (

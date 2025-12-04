@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/eesys/go-zero/core/breaker"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
 	"go.mongodb.org/mongo-driver/v2/bson"
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"

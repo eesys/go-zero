@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 
+	"github.com/eesys/go-zero/core/lang"
 	"github.com/pelletier/go-toml/v2"
-	"github.com/zeromicro/go-zero/core/lang"
 	"gopkg.in/yaml.v2"
 )
 

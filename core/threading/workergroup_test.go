@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/eesys/go-zero/core/lang"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/lang"
 )
 
 func TestWorkerGroup(t *testing.T) {

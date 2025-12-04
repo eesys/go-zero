@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/zeromicro/go-zero/tools/goctl/api/parser/g4/gen/api"
+import "github.com/eesys/go-zero/tools/goctl/api/parser/g4/gen/api"
 
 // ImportExpr defines import syntax for api
 type ImportExpr struct {

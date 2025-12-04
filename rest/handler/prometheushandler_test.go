@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/eesys/go-zero/core/prometheus"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/prometheus"
 )
 
 func TestPromMetricHandler_Disabled(t *testing.T) {

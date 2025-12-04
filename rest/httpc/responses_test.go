@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/eesys/go-zero/rest/internal/header"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/rest/internal/header"
 )
 
 func TestParse(t *testing.T) {

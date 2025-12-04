@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/cmd"
+	"github.com/eesys/go-zero/core/load"
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/tools/goctl/cmd"
 )
 
 func main() {

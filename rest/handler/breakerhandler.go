@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logc"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/eesys/go-zero/core/breaker"
+	"github.com/eesys/go-zero/core/logc"
+	"github.com/eesys/go-zero/core/stat"
+	"github.com/eesys/go-zero/rest/httpx"
+	"github.com/eesys/go-zero/rest/internal/response"
 )
 
 const breakerSeparator = "://"

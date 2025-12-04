@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/fs"
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/eesys/go-zero/core/fs"
+	"github.com/eesys/go-zero/core/lang"
 )
 
 const (

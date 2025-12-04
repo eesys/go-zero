@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/eesys/go-zero/core/stat"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stat"
 )
 
 func init() {

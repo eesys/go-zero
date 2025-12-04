@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero/tools/goctl
+module github.com/eesys/go-zero/tools/goctl
 
 go 1.21
 
@@ -16,7 +16,7 @@ require (
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
 	github.com/zeromicro/antlr v0.0.1
 	github.com/zeromicro/ddl-parser v1.0.5
-	github.com/zeromicro/go-zero v1.9.3
+	github.com/eesys/go-zero v1.9.3
 	golang.org/x/text v0.22.0
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.36.5

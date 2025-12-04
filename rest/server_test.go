@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/conf"
+	"github.com/eesys/go-zero/core/logx/logtest"
+	"github.com/eesys/go-zero/rest/chain"
+	"github.com/eesys/go-zero/rest/httpx"
+	"github.com/eesys/go-zero/rest/internal/cors"
+	"github.com/eesys/go-zero/rest/internal/header"
+	"github.com/eesys/go-zero/rest/router"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/rest/chain"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal/cors"
-	"github.com/zeromicro/go-zero/rest/internal/header"
-	"github.com/zeromicro/go-zero/rest/router"
 )
 
 const (

@@ -3,8 +3,8 @@ package internal
 import (
 	"net/http"
 
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/core/timex"
 	"go.opentelemetry.io/otel/propagation"
 )
 

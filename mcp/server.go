@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/rest"
 	"github.com/google/uuid"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest"
 )
 
 func NewMcpServer(c McpConf) McpServer {

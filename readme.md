@@ -8,9 +8,9 @@ go-zero is a web and rpc framework with lots of builtin engineering practices. I
 <div align=center>
 
 [![codecov](https://codecov.io/gh/zeromicro/go-zero/branch/master/graph/badge.svg)](https://codecov.io/gh/zeromicro/go-zero)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zeromicro/go-zero)](https://goreportcard.com/report/github.com/zeromicro/go-zero)
-[![Release](https://img.shields.io/github/v/release/zeromicro/go-zero.svg?style=flat-square)](https://github.com/zeromicro/go-zero)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zeromicro/go-zero.svg)](https://pkg.go.dev/github.com/zeromicro/go-zero)
+[![Go Report Card](https://goreportcard.com/badge/github.com/eesys/go-zero)](https://goreportcard.com/report/github.com/eesys/go-zero)
+[![Release](https://img.shields.io/github/v/release/zeromicro/go-zero.svg?style=flat-square)](https://github.com/eesys/go-zero)
+[![Go Reference](https://pkg.go.dev/badge/github.com/eesys/go-zero.svg)](https://pkg.go.dev/github.com/eesys/go-zero)
 [![Awesome Go](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Discord](https://img.shields.io/discord/794530774463414292?label=chat&logo=discord)](https://discord.gg/4JQvC5A4Fe)
@@ -101,7 +101,7 @@ As below, go-zero protects the system with a couple of layers and mechanisms:
 Run the following command under your project:
 
 ```shell
-go get -u github.com/zeromicro/go-zero
+go get -u github.com/eesys/go-zero
 ```
 
 ##  Quick Start
@@ -118,7 +118,7 @@ go get -u github.com/zeromicro/go-zero
 
    ```shell
    # for Go
-   go install github.com/zeromicro/go-zero/tools/goctl@latest
+   go install github.com/eesys/go-zero/tools/goctl@latest
    
    # For Mac
    brew install goctl

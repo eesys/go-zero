@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
+	"github.com/eesys/go-zero/core/errorx"
+	"github.com/eesys/go-zero/core/hash"
+	"github.com/eesys/go-zero/core/stores/redis"
+	"github.com/eesys/go-zero/core/stores/redis/redistest"
+	"github.com/eesys/go-zero/core/syncx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/core/stores/redis/redistest"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 var _ Cache = (*mockedNode)(nil)

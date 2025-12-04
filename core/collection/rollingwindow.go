@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/mathx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/eesys/go-zero/core/mathx"
+	"github.com/eesys/go-zero/core/timex"
 )
 
 type (

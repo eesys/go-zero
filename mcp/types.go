@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zeromicro/go-zero/rest"
+	"github.com/eesys/go-zero/rest"
 )
 
 // Cursor is an opaque token used for pagination

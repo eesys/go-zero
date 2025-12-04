@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/jsonx"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/proc"
+	"github.com/eesys/go-zero/core/jsonx"
+	"github.com/eesys/go-zero/core/lang"
+	"github.com/eesys/go-zero/core/proc"
 )
 
 const (

@@ -3,7 +3,7 @@ package mcp
 import (
 	"time"
 
-	"github.com/zeromicro/go-zero/core/syncx"
+	"github.com/eesys/go-zero/core/syncx"
 )
 
 // Protocol constants

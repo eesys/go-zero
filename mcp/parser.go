@@ -3,7 +3,7 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/zeromicro/go-zero/core/mapping"
+	"github.com/eesys/go-zero/core/mapping"
 )
 
 // ParseArguments parses the arguments and populates the request object

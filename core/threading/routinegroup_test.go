@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"testing"
 
+	"github.com/eesys/go-zero/core/logx/logtest"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
 )
 
 func TestRoutineGroupRun(t *testing.T) {

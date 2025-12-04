@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httputil"
 
+	"github.com/eesys/go-zero/core/logc"
+	"github.com/eesys/go-zero/rest/internal/response"
+	"github.com/eesys/go-zero/rest/token"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/zeromicro/go-zero/core/logc"
-	"github.com/zeromicro/go-zero/rest/internal/response"
-	"github.com/zeromicro/go-zero/rest/token"
 )
 
 const (

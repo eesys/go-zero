@@ -6,10 +6,10 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/eesys/go-zero/rest/httpx"
+	"github.com/eesys/go-zero/rest/pathvar"
 	"github.com/fullstorydev/grpcurl"
 	"github.com/golang/protobuf/jsonpb"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/pathvar"
 )
 
 // NewRequestParser creates a new request parser from the given http.Request and resolver.

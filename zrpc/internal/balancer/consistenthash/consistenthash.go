@@ -3,7 +3,7 @@ package consistenthash
 import (
 	"context"
 
-	"github.com/zeromicro/go-zero/core/hash"
+	"github.com/eesys/go-zero/core/hash"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/codes"

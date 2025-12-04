@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/timex"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/timex"
 )
 
 func TestLessExecutor_DoOrDiscard(t *testing.T) {

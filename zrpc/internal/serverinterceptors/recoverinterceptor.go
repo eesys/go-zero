@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/zeromicro/go-zero/core/logc"
+	"github.com/eesys/go-zero/core/logc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -3,8 +3,8 @@ package sqlx
 import (
 	"testing"
 
+	"github.com/eesys/go-zero/core/conf"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
 )
 
 func TestValidate(t *testing.T) {

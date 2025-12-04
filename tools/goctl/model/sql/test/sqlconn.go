@@ -6,7 +6,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/zeromicro/go-zero/core/stores/sqlx"
+	"github.com/eesys/go-zero/core/stores/sqlx"
 )
 
 type (

@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util"
+	"github.com/eesys/go-zero/tools/goctl/util"
 )
 
 const (

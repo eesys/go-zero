@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/eesys/go-zero/core/breaker"
+	"github.com/eesys/go-zero/core/errorx"
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/core/mapping"
+	"github.com/eesys/go-zero/core/syncx"
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const (

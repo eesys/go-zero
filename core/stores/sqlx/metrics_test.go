@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/conf"
+	"github.com/eesys/go-zero/internal/devserver"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/internal/devserver"
 )
 
 func TestSqlxMetric(t *testing.T) {

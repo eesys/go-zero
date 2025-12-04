@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/eesys/go-zero/core/color"
+	"github.com/eesys/go-zero/core/errorx"
 	fatihcolor "github.com/fatih/color"
-	"github.com/zeromicro/go-zero/core/color"
-	"github.com/zeromicro/go-zero/core/errorx"
 )
 
 type (

@@ -7,14 +7,14 @@ import (
 	"path"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest/chain"
-	"github.com/zeromicro/go-zero/rest/handler"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/cors"
-	"github.com/zeromicro/go-zero/rest/internal/fileserver"
-	"github.com/zeromicro/go-zero/rest/router"
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/rest/chain"
+	"github.com/eesys/go-zero/rest/handler"
+	"github.com/eesys/go-zero/rest/httpx"
+	"github.com/eesys/go-zero/rest/internal"
+	"github.com/eesys/go-zero/rest/internal/cors"
+	"github.com/eesys/go-zero/rest/internal/fileserver"
+	"github.com/eesys/go-zero/rest/router"
 )
 
 type (

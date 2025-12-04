@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/eesys/go-zero/core/breaker"
+	"github.com/eesys/go-zero/core/stat"
+	rcodes "github.com/eesys/go-zero/zrpc/internal/codes"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/stat"
-	rcodes "github.com/zeromicro/go-zero/zrpc/internal/codes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

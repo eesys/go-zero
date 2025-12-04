@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
+	"github.com/eesys/go-zero/tools/goctl/api/spec"
+	"github.com/eesys/go-zero/tools/goctl/util"
 )
 
 func rangeValueFromOptions(options []string) (minimum *float64, maximum *float64, exclusiveMinimum bool, exclusiveMaximum bool) {

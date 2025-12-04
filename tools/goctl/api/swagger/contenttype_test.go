@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/eesys/go-zero/tools/goctl/api/spec"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
 )
 
 func TestConsumesFromTypeOrDef(t *testing.T) {

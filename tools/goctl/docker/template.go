@@ -3,7 +3,7 @@ package docker
 import (
 	_ "embed"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/eesys/go-zero/tools/goctl/util/pathx"
 )
 
 const (

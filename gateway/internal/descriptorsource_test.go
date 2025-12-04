@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/eesys/go-zero/core/hash"
 	"github.com/fullstorydev/grpcurl"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/hash"
 )
 
 const (

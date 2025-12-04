@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/eesys/go-zero/core/breaker"
+	"github.com/eesys/go-zero/core/errorx"
+	"github.com/eesys/go-zero/core/timex"
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"
 	"go.mongodb.org/mongo-driver/v2/x/mongo/driver/session"

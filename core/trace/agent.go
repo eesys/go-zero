@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/eesys/go-zero/core/logx"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

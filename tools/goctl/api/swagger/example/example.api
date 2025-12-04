@@ -4,12 +4,12 @@ info (
 	title:                  "Demo API" // title corresponding to Swagger
 	description:            "Generating Swagger files using the API demo." // description corresponding to Swagger
 	version:                "v1" // version corresponding to Swagger
-	termsOfService:         "https://github.com/zeromicro/go-zero" // termsOfService corresponding to Swagger
+	termsOfService:         "https://github.com/eesys/go-zero" // termsOfService corresponding to Swagger
 	contactName:            "keson.an" // contactName corresponding to Swagger
-	contactURL:             "https://github.com/zeromicro/go-zero" // contactURL corresponding to Swagger
+	contactURL:             "https://github.com/eesys/go-zero" // contactURL corresponding to Swagger
 	contactEmail:           "example@gmail.com" // contactEmail corresponding to Swagger
 	licenseName:            "MIT" // licenseName corresponding to Swagger
-	licenseURL:             "https://github.com/zeromicro/go-zero" // licenseURL corresponding to Swagger
+	licenseURL:             "https://github.com/eesys/go-zero" // licenseURL corresponding to Swagger
 	consumes:               "application/json" // consumes corresponding to Swagger,default value is `application/json`
 	produces:               "application/json" // produces corresponding to Swagger,default value is `application/json`
 	schemes:                "http,https" // schemes corresponding to Swagger,default value is `https``

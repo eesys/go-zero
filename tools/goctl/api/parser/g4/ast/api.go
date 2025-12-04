@@ -5,7 +5,7 @@ import (
 	"path"
 	"sort"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser/g4/gen/api"
+	"github.com/eesys/go-zero/tools/goctl/api/parser/g4/gen/api"
 )
 
 const (

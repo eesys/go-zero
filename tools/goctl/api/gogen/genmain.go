@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
-	"github.com/zeromicro/go-zero/tools/goctl/util/format"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/vars"
+	"github.com/eesys/go-zero/tools/goctl/api/spec"
+	"github.com/eesys/go-zero/tools/goctl/config"
+	"github.com/eesys/go-zero/tools/goctl/internal/version"
+	"github.com/eesys/go-zero/tools/goctl/util/format"
+	"github.com/eesys/go-zero/tools/goctl/util/pathx"
+	"github.com/eesys/go-zero/tools/goctl/vars"
 )
 
 //go:embed main.tpl

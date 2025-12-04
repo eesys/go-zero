@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/eesys/go-zero/core/stringx"
+	"github.com/eesys/go-zero/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stringx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 func TestProjectFromGoPath(t *testing.T) {

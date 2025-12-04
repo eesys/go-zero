@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/logx/logtest"
+	"github.com/eesys/go-zero/rest/internal"
+	"github.com/eesys/go-zero/rest/internal/response"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/response"
 )
 
 func TestLogHandler(t *testing.T) {

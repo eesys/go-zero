@@ -1,6 +1,6 @@
 package collection
 
-import "github.com/zeromicro/go-zero/core/lang"
+import "github.com/eesys/go-zero/core/lang"
 
 // Set is a type-safe generic set collection.
 // It's not thread-safe, use with synchronization for concurrent access.

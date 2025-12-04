@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
+	apiSpec "github.com/eesys/go-zero/tools/goctl/api/spec"
 	"github.com/go-openapi/spec"
-	apiSpec "github.com/zeromicro/go-zero/tools/goctl/api/spec"
 )
 
 func isRequestBodyJson(ctx Context, method string, tp apiSpec.Type) (string, bool) {

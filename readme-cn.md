@@ -6,11 +6,11 @@
 
 [English](readme.md) | 简体中文
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/zeromicro/go-zero)](https://goreportcard.com/report/github.com/zeromicro/go-zero)
-[![goproxy](https://goproxy.cn/stats/github.com/zeromicro/go-zero/badges/download-count.svg)](https://goproxy.cn/stats/github.com/zeromicro/go-zero/badges/download-count.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/eesys/go-zero)](https://goreportcard.com/report/github.com/eesys/go-zero)
+[![goproxy](https://goproxy.cn/stats/github.com/eesys/go-zero/badges/download-count.svg)](https://goproxy.cn/stats/github.com/eesys/go-zero/badges/download-count.svg)
 [![codecov](https://codecov.io/gh/zeromicro/go-zero/branch/master/graph/badge.svg)](https://codecov.io/gh/zeromicro/go-zero)
-[![Release](https://img.shields.io/github/v/release/zeromicro/go-zero.svg?style=flat-square)](https://github.com/zeromicro/go-zero)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zeromicro/go-zero.svg)](https://pkg.go.dev/github.com/zeromicro/go-zero)
+[![Release](https://img.shields.io/github/v/release/zeromicro/go-zero.svg?style=flat-square)](https://github.com/eesys/go-zero)
+[![Go Reference](https://pkg.go.dev/badge/github.com/eesys/go-zero.svg)](https://pkg.go.dev/github.com/eesys/go-zero)
 [![Awesome Go](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -95,7 +95,7 @@ go-zero 是一个集成了各种工程实践的包含 web 和 rpc 框架，有�
 在项目目录下通过如下命令安装：
 
 ```shell
-GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/zeromicro/go-zero
+GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/eesys/go-zero
 ```
 
 ## 6. Quick Start
@@ -112,7 +112,7 @@ GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/zeromicro
 
     ```shell
     # Go
-    GOPROXY=https://goproxy.cn/,direct go install github.com/zeromicro/go-zero/tools/goctl@latest
+    GOPROXY=https://goproxy.cn/,direct go install github.com/eesys/go-zero/tools/goctl@latest
     
     # For Mac
     brew install goctl
@@ -309,7 +309,7 @@ go-zero 已被许多公司用于生产部署，接入场景如在线教育、电
 >111. 统信软件
 >112. 深圳坐标软件集团有限公司
 
-如果贵公司也已使用 go-zero，欢迎在 [登记地址](https://github.com/zeromicro/go-zero/issues/602) 登记，仅仅为了推广，不做其它用途。
+如果贵公司也已使用 go-zero，欢迎在 [登记地址](https://github.com/eesys/go-zero/issues/602) 登记，仅仅为了推广，不做其它用途。
 
 ## 10. CNCF 云原生技术全景图
 

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/eesys/go-zero/tools/goctl/util"
+	"github.com/eesys/go-zero/tools/goctl/util/env"
+	"github.com/eesys/go-zero/tools/goctl/util/pathx"
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/env"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 const (

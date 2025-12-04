@@ -5,7 +5,7 @@ import (
 	"slices"
 	"unicode"
 
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/eesys/go-zero/core/lang"
 )
 
 var (

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/internal/health"
+	"github.com/eesys/go-zero/core/logx"
+	"github.com/eesys/go-zero/core/proc"
+	"github.com/eesys/go-zero/internal/health"
 )
 
 const probeNamePrefix = "rest"

@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/conf"
+	"github.com/eesys/go-zero/core/logx/logtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
 )
 
 // mockMcpServer is a helper for testing the MCP server

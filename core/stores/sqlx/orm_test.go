@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/eesys/go-zero/core/stores/dbtest"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stores/dbtest"
 )
 
 func TestUnmarshalRowBool(t *testing.T) {

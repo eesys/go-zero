@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/trace"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/eesys/go-zero/core/collection"
+	"github.com/eesys/go-zero/core/trace"
+	"github.com/eesys/go-zero/rest/internal/response"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"

@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eesys/go-zero/core/logx/logtest"
+	"github.com/eesys/go-zero/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/core/stringx"
 	"go.uber.org/goleak"
 )
 

@@ -4,12 +4,12 @@ info (
 	title:                  "演示 API" // 对应 swagger 的 title
 	description:            "演示 api 生成 swagger 文件的 api 完整写法" // 对应 swagger 的 description
 	version:                "v1" // 对应 swagger 的 version
-	termsOfService:         "https://github.com/zeromicro/go-zero" // 对应 swagger 的 termsOfService
+	termsOfService:         "https://github.com/eesys/go-zero" // 对应 swagger 的 termsOfService
 	contactName:            "keson.an" // 对应 swagger 的 contactName
-	contactURL:             "https://github.com/zeromicro/go-zero" // 对应 swagger 的 contactURL
+	contactURL:             "https://github.com/eesys/go-zero" // 对应 swagger 的 contactURL
 	contactEmail:           "example@gmail.com" // 对应 swagger 的 contactEmail
 	licenseName:            "MIT" // 对应 swagger 的 licenseName
-	licenseURL:             "https://github.com/zeromicro/go-zero" // 对应 swagger 的 licenseURL
+	licenseURL:             "https://github.com/eesys/go-zero" // 对应 swagger 的 licenseURL
 	consumes:               "application/json" // 对应 swagger 的 consumes,不填默认为 application/json
 	produces:               "application/json" // 对应 swagger 的 produces,不填默认为 application/json
 	schemes:                "http,https" // 对应 swagger 的 schemes,不填默认为 https

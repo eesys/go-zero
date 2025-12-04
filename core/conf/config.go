@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/jsonx"
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/internal/encoding"
+	"github.com/eesys/go-zero/core/jsonx"
+	"github.com/eesys/go-zero/core/mapping"
+	"github.com/eesys/go-zero/internal/encoding"
 )
 
 const (
